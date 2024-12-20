@@ -1,8 +1,8 @@
 from fastapi import FastAPI
-from sqlalchemy import create_engine
 from sqlmodel import SQLModel
-from router import users  # Импортируем роуты из файла
+
 from database import engine  # Подключение к базе данных
+from router import users  # Импортируем роуты из файла
 
 app = FastAPI()
 

@@ -1,4 +1,4 @@
-fastapi~=0.115.6
+fastapi
 uvicorn
 psycopg2-binary
 redis
@@ -7,4 +7,4 @@ pydantic
 prometheus_client
 websockets
 aiohttp
-sqlmodel~=0.0.22
+sqlmodel
